@@ -25,7 +25,7 @@ class BoardTest {
      */
     @Test
     void verifyWidth() {
-        // TODO
+        assertThat(board.getWidth()).isEqualTo(3);
     }
 
     /**
@@ -33,7 +33,7 @@ class BoardTest {
      */
     @Test
     void verifyHeight() {
-        // TODO
+        assertThat(board.getHeight()).isEqualTo(2);
     }
 
     /**
@@ -48,6 +48,11 @@ class BoardTest {
         "0, 1"
     })
     void testSquareAt(int x, int y) {
-        // TODO
+        // Check that position is within the board
+        assertThat(board.withinBorders(x, y)).isTrue();
+
+        // Check that squareAt returns the correct (non-null) square
+        Square square = board.squareAt(x, y);
+        assertThat(square).isNotNull();
     }
 }
