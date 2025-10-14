@@ -1,0 +1,12 @@
+2025-09-30 09:52:19.566 - Notification - You might want to run your tests with coverage to see if you missed anything!
+2025-09-30 09:56:38.363 - Notification - You are making progress on an achievement! You have already reached 80.00% of the next level of the 'Safety First' achievement!
+2025-09-30 10:02:08.612 - Notification - Congratulations! You unlocked level 1 of the 'Safety First' achievement!
+2025-09-30 10:15:02.057 - Debug - Connect to wss://gamification.thibber.be/ws
+2025-09-30 10:15:02.06 - Debug - Web socket state : Connecting
+2025-09-30 10:15:04.259 - Error - Websocket failure : Hôte inconnu (gamification.thibber.be)
+2025-09-30 10:15:04.263 - Debug - Web socket state : Error
+2025-09-30 19:42:50.626 - Notification - You are making progress on an achievement! You have already reached 25.00% of the next level of the 'Double check' achievement!
+2025-10-14 10:44:35.79 - Debug - Connect to wss://gamification.thibber.be/ws
+2025-10-14 10:44:35.792 - Debug - Web socket state : Connecting
+2025-10-14 10:44:37.644 - Error - Websocket failure : Hôte inconnu (gamification.thibber.be)
+2025-10-14 10:44:37.646 - Debug - Web socket state : Error
