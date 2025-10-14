@@ -14,6 +14,9 @@ import static org.mockito.Mockito.mock;
  */
 class BoardTest {
 
+    private static final int MAX_WIDTH = 2;
+    private static final int MAX_HEIGHT = 3;
+
     private final Square[][] grid = {
         { mock(Square.class), mock(Square.class), mock(Square.class) },
         { mock(Square.class), mock(Square.class), mock(Square.class) },
