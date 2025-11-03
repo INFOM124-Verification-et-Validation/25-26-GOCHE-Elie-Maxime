@@ -34,13 +34,13 @@ import nl.tudelft.jpacman.sprite.Sprite;
  * towards Pac-Man before he moves to the left.
  * </p>
  * <p>
- * Source: http://strategywiki.org/wiki/Pac-Man/Getting_Started
+ * Source: <a href="http://strategywiki.org/wiki/Pac-Man/Getting_Started">...</a>
  * </p>
  *
  * @author Jeroen Roosen 
  *
  */
-public class Blinky extends Ghost {
+public class  Blinky extends Ghost {
 
     /**
      * The variation in intervals, this makes the ghosts look more dynamic and

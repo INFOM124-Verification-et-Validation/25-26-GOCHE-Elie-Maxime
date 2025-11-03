@@ -11,15 +11,11 @@
 
 ### Input partitions
 
-- Type of the collider (Player, Ghost, Pellet)
-- Type of the collidee (Player, Ghost, Pellet)
+#### Individual inputs
+
+#### Combinations of input values
 
 ### Output partitions
-
-- Player’s alive state
-- Player’s score
-- Pellet still on board or removed
-- Whether the game continues or stops
 
 ## 4. Identify boundaries
 

@@ -11,6 +11,13 @@ Analyze the requirements found in `docs/scenarios.md` and derive a decision tabl
 | **Consequence** | ??     | ??    | ??     | ?? |
 
 
+|**Collider ↓ / Collidee →**| **Player**               | **Ghost**               | **Pellet**                                   |
+|--------------|--------------------------|-------------------------|----------------------------------------------|
+|**Player**| Impossible               | Player dies (game over) | Player score is increased and pellet removed |
+|**Ghost**| Player dies (game over)  | Nothing                 | Nothing                                      |
+|**Pellet**|Player score incremented and pellet removed|Nothing| Nothing                                      |
+
+
 Based on the decision table above, derive a JUnit test suite for the `level.PlayerCollisions` class using the **specification-based testing** (see the `analysis-template.md` file) and **structural testing** frameworks. You should be as rigorous as possible here. Think not only of collisions that result in something, but also on collisions where "nothing happens".
 
 ## Exercise 2

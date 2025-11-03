@@ -18,7 +18,7 @@ import nl.tudelft.jpacman.sprite.Sprite;
  * </p>
  * <p>
  * Pokey needs a new nickname because out of all the ghosts,
- * Clyde is the least likely to "C'lyde" with Pac-Man. Clyde is always the last
+ * Clyde is the least likely to "Clyde" with Pac-Man. Clyde is always the last
  * ghost out of the regenerator, and the loner of the gang, usually off doing
  * his own thing when not patrolling the bottom-left corner of the maze. His
  * behavior is very random, so while he's not likely to be following you in hot
@@ -34,7 +34,7 @@ import nl.tudelft.jpacman.sprite.Sprite;
  * automatically changes his behavior and runs away.
  * </p>
  * <p>
- * Source: http://strategywiki.org/wiki/Pac-Man/Getting_Started
+ * Source: <a href="http://strategywiki.org/wiki/Pac-Man/Getting_Started">...</a>
  * </p>
  *
  * @author Jeroen Roosen
